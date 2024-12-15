@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Satoshi;
+    src: url(../../../assets/fonts/OTF/Satoshi-Regular.otf);
+  }
+  
+  .card {
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    width: 328px;
+    height: 382px;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    row-gap: 10px;
+    flex-direction: column;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    background: var(--card-gradient); /* Set the initial gradient using CSS variable */
+  }
+  
+  .card:hover {
+    background: var(--card-hover-bg); /* Use CSS variable for hover background */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h2 {
+    font-family: Satoshi;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  

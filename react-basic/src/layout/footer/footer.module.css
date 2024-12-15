@@ -1,0 +1,112 @@
+@font-face {
+  font-family: Satoshi;
+  src: url(../../assets/fonts/OTF/Satoshi-Regular.otf);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.footer {
+  background-color: #254c86;
+  padding: 0px 70px;
+  color: white;
+  
+  position: relative;
+  bottom: 0;
+}
+
+.footerContainer {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.logo {
+  width: 150px;
+}
+.footerLeftH {
+  font-family: Satoshi;
+  font-size: 56px;
+  font-weight: 700px;
+}
+
+.footerLeft p {
+  font-family: Poppins;
+  text-align: justify;
+  color: #d3dbe7;
+}
+
+.bookA {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+.bookA img{
+    margin-top: 7px;
+}
+.buttonBook {
+  margin-top: 50px;
+}
+
+.footerLeft {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footerLinks h3 {
+  font-family: Poppins;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.footerLinks li {
+  margin-bottom: 30px;
+}
+.footerLinks li a {
+  color: #d3dbe7;
+}
+.footerLinks li a:hover {
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+.footerContacts {
+  width: 30%;
+}
+.footerContacts h3 {
+  font-family: Poppins;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.footerContacts div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.footerContacts p {
+  display: inline block;
+  font-family: Poppins;
+  color: #d3dbe7;
+}
+.footerContacts p strong {
+  color: white;
+}
+.icon {
+  margin-right: 10px;
+}
+
+.footerBottom {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.copyRights {
+  font-family: Poppins;
+  padding: 24px 0px 27px;
+}

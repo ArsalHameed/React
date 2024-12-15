@@ -1,0 +1,43 @@
+@font-face {
+  font-family: Satoshi;
+  src: url(../../../assets/fonts/OTF/Satoshi-Black.otf);
+}
+@font-face {
+  font-family: SatoshiL;
+  src: url(../../../assets/fonts/OTF/Satoshi-Medium.otf);
+}
+
+.mainHeading {
+  font-family: "Satoshi";
+  text-align: center;
+  font-weight: 900px;
+  font-size: 80px;
+
+  margin-top: 250px;
+  line-height: 5.2rem;
+}
+
+.secondHeading {
+  font-family: Poppins;
+  text-align: center;
+  font-size: 32px;
+  line-height: 48px;
+  margin-top: 50px;
+}
+
+.thirdHeading {
+  font-family: SatoshiL;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.slider {
+  margin-bottom: 50px;
+}
+
+.sliderAnk {
+  padding: 20px 40px;
+}
