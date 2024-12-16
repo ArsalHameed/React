@@ -1,11 +1,10 @@
 .Card{
-    margin: 0px 70px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: start; 
-    margin-bottom: 50px;
-    
-
-
+   
+    margin: 10px 10px;
 }
+.sliderContainer {
+    margin: 20px 70px;
+    background-color: white;
+
+   
+  }
